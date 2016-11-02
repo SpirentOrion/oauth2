@@ -11,8 +11,8 @@ package oauth2
 import (
 	"net/http"
 
+	"github.com/SpirentOrion/oauth2/internal"
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2/internal"
 	"google.golang.org/appengine/urlfetch"
 )
 
